@@ -143,10 +143,10 @@
 #define BATTCHECK_VpT
 //#define BATTCHECK_8bars  // FIXME: breaks build
 //#define BATTCHECK_4bars  // FIXME: breaks build
-//#if ROM_SIZE > 10000
+#if ROM_SIZE > 10000
     // battcheck displays 1.25V instead of 1.2V
-   // #define USE_EXTRA_BATTCHECK_DIGIT
-//#endif
+    #define USE_EXTRA_BATTCHECK_DIGIT
+#endif
 // allow the user to calibrate the voltage readings?
 // (adjust in 0.05V increments from -0.30V to +0.30V)
 // (1 = -0.30V, 2 = -0.25V, ... 7 = 0V, ... 13 = +0.30V)
@@ -181,7 +181,7 @@
 //#define USE_MOMENTARY_MODE
 
 // enable tactical mode
-#define USE_TACTICAL_MODE
+//#define USE_TACTICAL_MODE
 
 
 // enable a shortcut for +10 in number entry mode
