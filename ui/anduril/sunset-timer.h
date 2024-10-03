@@ -5,7 +5,7 @@
 #pragma once
 
 // how many minutes to add each time the user "bumps" the timer?
-#define SUNSET_TIMER_UNIT 5
+#define SUNSET_TIMER_UNIT 30
 
 #define TICKS_PER_MINUTE (TICKS_PER_SECOND*60)
 
