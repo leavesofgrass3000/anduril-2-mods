@@ -175,7 +175,7 @@
 // should lockout mode function as a momentary moon mode?
 #define USE_MOON_DURING_LOCKOUT_MODE
 // add an optional setting to lock the light after being off for a while
-//#define USE_AUTOLOCK
+#define USE_AUTOLOCK
 
 // enable momentary mode
 //#define USE_MOMENTARY_MODE
