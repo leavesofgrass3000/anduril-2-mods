@@ -23,7 +23,7 @@
 
 #define RAMP_SMOOTH_FLOOR    1
 #define RAMP_SMOOTH_CEIL     112
-#define RAMP_DISCRETE_FLOOR  10
+#define RAMP_DISCRETE_FLOOR  1
 #define RAMP_DISCRETE_CEIL   RAMP_SMOOTH_CEIL
 #define RAMP_DISCRETE_STEPS  7
 
@@ -34,12 +34,12 @@
 
 // this light should be fine running a bit hotter than most
 #undef DEFAULT_THERM_CEIL
-#define DEFAULT_THERM_CEIL 55
+#define DEFAULT_THERM_CEIL 45
 
 // stop panicking at ~40% power
 #define THERM_FASTER_LEVEL 120
 #define MIN_THERM_STEPDOWN 95 // ~600 lumens
-#define THERM_RESPONSE_MAGNITUDE 16  // smaller adjustments, big body.  default = 64
+#define THERM_RESPONSE_MAGNITUDE 40  // smaller adjustments, big body.  default = 64
 
 #define DEFAULT_2C_STYLE 1  // enable 2 click turbo (Anduril 1 style)
 
@@ -51,11 +51,11 @@
 #define USE_SIMPLE_UI_RAMPING_TOGGLE
 
 // enable extra features
-#define USE_SMOOTH_STEPS
+//#define USE_SMOOTH_STEPS
 
 // too big, turn off extra features
-#undef USE_TACTICAL_MODE
-#undef USE_SOS_MODE
+//#undef USE_TACTICAL_MODE
+//#undef USE_SOS_MODE
 //#undef USE_RAMP_AFTER_MOON_CONFIG
 //#undef USE_RAMP_SPEED_CONFIG
 //#undef USE_VOLTAGE_CORRECTION
