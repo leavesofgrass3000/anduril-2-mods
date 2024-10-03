@@ -100,14 +100,14 @@
 // (manual memory makes 1-click-from-off start at the same level each time)
 // (the level can be set explicitly with 10 clicks from on,
 // or the user can go back to automatic with 10H)
-#define USE_MANUAL_MEMORY
+//#define USE_MANUAL_MEMORY
 // if enabled, user can use "hybrid memory"
 // The light will use automatic or manual memory level, depending on how long
 // the light was off.  Short off = automatic, long off = manual.
 // This also remaps 10C/10H:
 // - 10C toggles manual mem on/off at current level.
 // - 10H configures the timer value.
-#define USE_MANUAL_MEMORY_TIMER
+//#define USE_MANUAL_MEMORY_TIMER
 
 // enable sunset timer (ramp-down and automatic shutoff)
 // timer is available in regular ramp mode and candle mode
@@ -133,7 +133,7 @@
 ///// extra modes (enable / disable / configure each mode) /////
 
 // include a function to blink out the firmware version
-#define USE_VERSION_CHECK
+//#define USE_VERSION_CHECK
 
 // enable the battery check mode (shows remaining charge) (requires USE_LVP)
 #define USE_BATTCHECK_MODE
@@ -143,10 +143,10 @@
 #define BATTCHECK_VpT
 //#define BATTCHECK_8bars  // FIXME: breaks build
 //#define BATTCHECK_4bars  // FIXME: breaks build
-#if ROM_SIZE > 10000
+//#if ROM_SIZE > 10000
     // battcheck displays 1.25V instead of 1.2V
-    #define USE_EXTRA_BATTCHECK_DIGIT
-#endif
+   // #define USE_EXTRA_BATTCHECK_DIGIT
+//#endif
 // allow the user to calibrate the voltage readings?
 // (adjust in 0.05V increments from -0.30V to +0.30V)
 // (1 = -0.30V, 2 = -0.25V, ... 7 = 0V, ... 13 = +0.30V)
@@ -156,9 +156,9 @@
 #define USE_BEACON_MODE
 
 // enable/disable various strobe modes
-#define USE_BIKE_FLASHER_MODE
-#define USE_PARTY_STROBE_MODE
-#define USE_TACTICAL_STROBE_MODE
+//#define USE_BIKE_FLASHER_MODE
+//#define USE_PARTY_STROBE_MODE
+//#define USE_TACTICAL_STROBE_MODE
 #define USE_LIGHTNING_MODE
 #define USE_CANDLE_MODE
 
@@ -166,19 +166,19 @@
 // (these replace the fun strobe group,
 //  so don't enable them at the same time as any of the above strobes)
 //#define USE_POLICE_STROBE_MODE
-#define USE_SOS_MODE
+//#define USE_SOS_MODE
 //#define USE_SOS_MODE_IN_FF_GROUP  // put SOS in the "boring strobes" mode
-#define USE_SOS_MODE_IN_BLINKY_GROUP  // put SOS in the blinkies mode group
+//#define USE_SOS_MODE_IN_BLINKY_GROUP  // put SOS in the blinkies mode group
 
 // enable a mode for locking the light for safe carry
 #define USE_LOCKOUT_MODE
 // should lockout mode function as a momentary moon mode?
 #define USE_MOON_DURING_LOCKOUT_MODE
 // add an optional setting to lock the light after being off for a while
-#define USE_AUTOLOCK
+//#define USE_AUTOLOCK
 
 // enable momentary mode
-#define USE_MOMENTARY_MODE
+//#define USE_MOMENTARY_MODE
 
 // enable tactical mode
 #define USE_TACTICAL_MODE
@@ -205,11 +205,11 @@
 
 // Use "smooth steps" to soften on/off and step changes
 // on MCUs with enough room for extra stuff like this
-#if (ROM_SIZE > 10000)
-#define USE_SMOOTH_STEPS
-#endif
+//#if (ROM_SIZE > 10000)
+//#define USE_SMOOTH_STEPS
+//#endif
 // 0 = none, 1 = smooth, 2+ = undefined
-#define DEFAULT_SMOOTH_STEPS_STYLE  1
+//#define DEFAULT_SMOOTH_STEPS_STYLE  1
 
 // by default, allow user to set the channel for each strobe-group mode
 // (but allow disabling this feature per build)
