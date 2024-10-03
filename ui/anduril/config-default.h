@@ -65,7 +65,7 @@
 #define AUTO_REVERSE_TIME (TICKS_PER_SECOND * 2 / 3)
 
 // add runtime option for whether hold-from-off should ramp or stay at moon
-#define USE_RAMP_AFTER_MOON_CONFIG
+//#define USE_RAMP_AFTER_MOON_CONFIG
 
 // short blip when crossing from "click" to "hold" from off
 // (helps the user hit moon mode exactly, instead of holding too long
@@ -74,7 +74,7 @@
 // short blips while ramping
 #define BLINK_AT_RAMP_MIDDLE
 //#define BLINK_AT_RAMP_FLOOR
-#define BLINK_AT_RAMP_CEIL
+//#define BLINK_AT_RAMP_CEIL
 //#define BLINK_AT_STEPS  // whenever a discrete ramp mode is passed in smooth mode
 
 // Uncomment for Anduril1 "Ramp 2C" behavior:
