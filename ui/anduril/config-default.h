@@ -74,7 +74,7 @@
 // short blips while ramping
 #define BLINK_AT_RAMP_MIDDLE
 //#define BLINK_AT_RAMP_FLOOR
-#define BLINK_AT_RAMP_CEIL
+//#define BLINK_AT_RAMP_CEIL
 //#define BLINK_AT_STEPS  // whenever a discrete ramp mode is passed in smooth mode
 
 // Uncomment for Anduril1 "Ramp 2C" behavior:
@@ -156,9 +156,9 @@
 #define USE_BEACON_MODE
 
 // enable/disable various strobe modes
-#define USE_BIKE_FLASHER_MODE
-#define USE_PARTY_STROBE_MODE
-#define USE_TACTICAL_STROBE_MODE
+//#define USE_BIKE_FLASHER_MODE
+//#define USE_PARTY_STROBE_MODE
+//#define USE_TACTICAL_STROBE_MODE
 #define USE_LIGHTNING_MODE
 #define USE_CANDLE_MODE
 
