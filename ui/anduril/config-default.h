@@ -205,11 +205,11 @@
 
 // Use "smooth steps" to soften on/off and step changes
 // on MCUs with enough room for extra stuff like this
-//#if (ROM_SIZE > 10000)
-//#define USE_SMOOTH_STEPS
-//#endif
+#if (ROM_SIZE > 10000)
+#define USE_SMOOTH_STEPS
+#endif
 // 0 = none, 1 = smooth, 2+ = undefined
-//#define DEFAULT_SMOOTH_STEPS_STYLE  1
+#define DEFAULT_SMOOTH_STEPS_STYLE  1
 
 // by default, allow user to set the channel for each strobe-group mode
 // (but allow disabling this feature per build)
