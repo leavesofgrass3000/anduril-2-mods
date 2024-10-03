@@ -51,11 +51,11 @@
 #define USE_SIMPLE_UI_RAMPING_TOGGLE
 
 // enable extra features
-#define USE_SMOOTH_STEPS
+//#define USE_SMOOTH_STEPS
 
 // too big, turn off extra features
-#undef USE_TACTICAL_MODE
-#undef USE_SOS_MODE
+//#undef USE_TACTICAL_MODE
+//#undef USE_SOS_MODE
 //#undef USE_RAMP_AFTER_MOON_CONFIG
 //#undef USE_RAMP_SPEED_CONFIG
 //#undef USE_VOLTAGE_CORRECTION
