@@ -175,7 +175,7 @@
 // should lockout mode function as a momentary moon mode?
 #define USE_MOON_DURING_LOCKOUT_MODE
 // add an optional setting to lock the light after being off for a while
-#define USE_AUTOLOCK
+//#define USE_AUTOLOCK
 
 // enable momentary mode
 //#define USE_MOMENTARY_MODE
@@ -205,9 +205,9 @@
 
 // Use "smooth steps" to soften on/off and step changes
 // on MCUs with enough room for extra stuff like this
-#if (ROM_SIZE > 10000)
-#define USE_SMOOTH_STEPS
-#endif
+//#if (ROM_SIZE > 10000)
+//#define USE_SMOOTH_STEPS
+//#endif
 // 0 = none, 1 = smooth, 2+ = undefined
 #define DEFAULT_SMOOTH_STEPS_STYLE  1
 
