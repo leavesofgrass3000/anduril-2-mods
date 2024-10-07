@@ -100,14 +100,14 @@
 // (manual memory makes 1-click-from-off start at the same level each time)
 // (the level can be set explicitly with 10 clicks from on,
 // or the user can go back to automatic with 10H)
-//#define USE_MANUAL_MEMORY
+#define USE_MANUAL_MEMORY
 // if enabled, user can use "hybrid memory"
 // The light will use automatic or manual memory level, depending on how long
 // the light was off.  Short off = automatic, long off = manual.
 // This also remaps 10C/10H:
 // - 10C toggles manual mem on/off at current level.
 // - 10H configures the timer value.
-//#define USE_MANUAL_MEMORY_TIMER
+#define USE_MANUAL_MEMORY_TIMER
 
 // enable sunset timer (ramp-down and automatic shutoff)
 // timer is available in regular ramp mode and candle mode
@@ -133,7 +133,7 @@
 ///// extra modes (enable / disable / configure each mode) /////
 
 // include a function to blink out the firmware version
-//#define USE_VERSION_CHECK
+#define USE_VERSION_CHECK
 
 // enable the battery check mode (shows remaining charge) (requires USE_LVP)
 #define USE_BATTCHECK_MODE
@@ -156,9 +156,9 @@
 #define USE_BEACON_MODE
 
 // enable/disable various strobe modes
-//#define USE_BIKE_FLASHER_MODE
-//#define USE_PARTY_STROBE_MODE
-//#define USE_TACTICAL_STROBE_MODE
+#define USE_BIKE_FLASHER_MODE
+#define USE_PARTY_STROBE_MODE
+#define USE_TACTICAL_STROBE_MODE
 #define USE_LIGHTNING_MODE
 #define USE_CANDLE_MODE
 
@@ -178,10 +178,10 @@
 #define USE_AUTOLOCK
 
 // enable momentary mode
-//#define USE_MOMENTARY_MODE
+#define USE_MOMENTARY_MODE
 
 // enable tactical mode
-//#define USE_TACTICAL_MODE
+#define USE_TACTICAL_MODE
 
 
 // enable a shortcut for +10 in number entry mode
