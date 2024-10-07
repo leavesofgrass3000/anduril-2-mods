@@ -55,7 +55,7 @@
 
 // too big, turn off extra features
 #undef USE_TACTICAL_MODE
-#undef USE_SOS_MODE
+//#undef USE_SOS_MODE
 #undef USE_RAMP_AFTER_MOON_CONFIG
 //#undef USE_RAMP_SPEED_CONFIG
 //#undef USE_VOLTAGE_CORRECTION
@@ -66,5 +66,4 @@
 #undef USE_BIKE_FLASHER_MODE
 #undef USE_PARTY_STROBE_MODE
 #undef USE_TACTICAL_STROBE_MODE
-//#undef USE_AUTOLOCK
 #undef USE_MOMENTARY_MODE
