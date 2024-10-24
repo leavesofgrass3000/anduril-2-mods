@@ -25,7 +25,7 @@ volatile uint8_t adc_reset = 2;
 #endif
 // battery is low but not critical
 #ifndef VOLTAGE_RED
-#define VOLTAGE_RED (33*dV)
+#define VOLTAGE_RED (35*dV)
 #endif
 // MCU sees voltage 0.X volts lower than actual, add X/2 to readings
 #ifndef VOLTAGE_FUDGE_FACTOR
