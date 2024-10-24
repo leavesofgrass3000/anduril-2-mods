@@ -266,7 +266,7 @@ uint8_t off_state(Event event, uint16_t arg) {
 
     #ifdef USE_INDICATOR_LED
     // 7 clicks: change indicator LED mode
-    else if (event == EV_7clicks) {
+    else if (event == EV_5clicks) {
         uint8_t mode = (cfg.indicator_led_mode & 3) + 1;
         #ifdef TICK_DURING_STANDBY
         mode = mode & 3;
@@ -345,7 +345,7 @@ uint8_t off_state(Event event, uint16_t arg) {
 
     #ifdef USE_MOMENTARY_MODE
     // 5 clicks: momentary mode
-    else if (event == EV_5clicks) {
+    else if (event == EV_7clicks) {
         blink_once();
         set_state(momentary_state, 0);
         return EVENT_HANDLED;
