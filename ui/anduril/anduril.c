@@ -326,7 +326,7 @@ void loop() {
 
     #ifdef USE_BATTCHECK
     else if (state == battcheck_state) {
-        nice_delay_ms(1000);  // wait a moment for a more accurate reading
+        nice_delay_ms(100);  // wait a moment for a more accurate reading
         battcheck();
         #ifdef USE_SIMPLE_UI
         // in simple mode, turn off after one readout
