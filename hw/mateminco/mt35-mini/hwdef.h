@@ -73,7 +73,7 @@ inline void hwdef_setup() {
 
     // configure PWM channels
     TCCR0B = 0x01; // pre-scaler for timer (1 => 1, 2 => 8, 3 => 64...)
-    TCCR0A = FAST;
+    TCCR0A = PHASE;
 
     // Second PWM counter is ... weird
     TCCR1 = _BV (CS10);
