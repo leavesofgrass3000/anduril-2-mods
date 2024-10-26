@@ -25,7 +25,7 @@
 #define RAMP_SMOOTH_FLOOR    1
 #define RAMP_SMOOTH_CEIL     90
 #define RAMP_DISCRETE_FLOOR  2
-#define RAMP_DISCRETE_CEIL   115
+#define RAMP_DISCRETE_CEIL   107
 #define RAMP_DISCRETE_STEPS  7
 
 // safe limit ~33% power
